@@ -264,6 +264,46 @@ var acodian = {
 };
 acodian.click('.faq_box > .faq_ques');
 
+// -----------------faq
+
+$('button').click(function () {
+  var $this = $(this);
+  var index = $this.index();
+
+  $this.addClass('active');
+  $this.siblings('button.active').removeClass('active');
+
+  var $outer = $this.closest('.faq-tab');
+  var $current = $outer.find(' > .tabs > .tab.active');
+  var $post = $outer.find(' > .tabs > .tab').eq(index);
+
+  $current.removeClass('active');
+  $post.addClass('active');
+  // 위의 코드는 탭메뉴 코드입니다.
+});
+
+
+var acodian = {
+  click: function (target) {
+      var $target = $(target);
+      $target.on('click', function () {
+
+          if ($(this).hasClass('on')) {
+              slideUp($target);
+          } else {
+              slideUp($target);
+              $(this).addClass('on').next().slideDown();
+          }
+
+          function slideUp($target) {
+              $target.removeClass('on').next().slideUp();
+          }
+
+      });
+  }
+};
+acodian.click('.faq_box > .faq_ques');
+
 
 
 
