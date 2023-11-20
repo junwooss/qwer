@@ -159,6 +159,39 @@ $('.slider4').slick({
   ]
 });
 
+$('.review').slick({
+  // centerMode: true,
+  centerPadding: '500px',
+  slidesToShow: 1,
+  autoplay: true,
+  autoplaySpeed: 1500,
+  prevArrow: $('.slick-prev6'),
+  nextArrow: $('.slick-next6'),
+  responsive: [ // 반응형 웹 구현 옵션
+      {
+          breakpoint: 900, //화면 사이즈 960px
+          settings: {
+              slidesToShow: 2,
+
+          }
+      },
+      {
+          breakpoint: 1360, //화면 사이즈 960px
+          settings: {
+              slidesToShow: 3,
+              centerPadding: '300px',
+          }
+      },
+      {
+          breakpoint: 2560,
+          settings: {
+              slidesToShow: 3,
+              centerPadding: '500px',
+          }
+      }
+  ]
+});
+
 // -------------product
 
 $('.product-m-slide').slick({
