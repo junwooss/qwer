@@ -1,0 +1,204 @@
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px 5%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main-img {
+    width: 150px;
+    cursor: pointer;
+}
+
+header nav {
+    display: none;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li {
+    font-size: 1.2rem;
+    margin: 0 10px;
+}
+
+/* topbar */
+
+#mo-nav {
+    position: fixed;
+    background-color: white;
+    top: 0;
+    right: -100%;
+    width: 100%;
+    height: 100vh;
+    z-index: 99;
+    padding: 20px 0 70px;
+}
+
+.nav-flex {
+    padding: 0 5%;
+}
+
+#mo-nav> :nth-child(1) {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+    margin-bottom: 20px;
+}
+
+.nav-search {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.nav-search input {
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+.nav-search i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 5%;
+    font-size: 2rem;
+}
+
+.nav-login {
+    /* padding: 20px 5%; */
+    padding: 20px 0;
+}
+
+.nav-login h4 {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.nav-button {
+    /* margin: 0 5%; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-button button {
+    width: 45%;
+    margin: 0;
+    background-color: #0890c0;
+    color: #fff;
+    border: none;
+    padding: 15px;
+}
+
+.nav-list {
+    padding: 50px 0 20px;
+}
+
+.nav-list li {
+    margin-bottom: 20px;
+}
+
+.nav-list li a {
+    font-size: 1.2rem;
+}
+
+.nav-icon {
+    display: flex;
+    /* padding: 0 5%; */
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.nav-icon>div {
+    text-align: center;
+}
+
+.nav-icon>div i {
+    margin-bottom: 10px;
+    cursor:auto;
+    font-weight: 100;
+}
+
+.nav-icon>div img {
+    width: 45px;
+}
+
+.nav-img {
+    display: block;
+    width: 90%;
+    margin: 0 auto 50px;
+}
+
+.nav-select {
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    height: 50px;
+    border: 1px solid #ddd;
+}
+
+@media screen and (min-width: 600px) {
+    .nav-img {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+
+    .pc-only {
+        display: block;
+    }
+
+    .mo-only {
+        display: none;
+    }
+
+    .slick-arrow {
+        font-size: 3.5rem;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    /* header */
+
+    header {
+        padding: 20px 0;
+    }
+
+    header nav {
+        display: block;
+    }
+
+    /* mo-nav */
+
+    .nav-flex {
+        display: flex;
+        justify-content:space-between;
+        padding: 0 5%;
+    }
+
+    .nav-flex> :nth-child(1) {
+        width: 50%;
+    }
+
+    .nav-flex> :nth-child(2) {
+        width: 40%;
+    }
+
+    .nav-flex> :nth-child(2) img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .nav-select {
+        width: 45%;
+        margin: 0 5%;
+    }
+}

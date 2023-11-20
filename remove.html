@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="membership.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
+    <script type="text/javascript" src="script.js"></script>
+    <!-- xeicon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+    <!-- 제이쿼리 -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+    <title>ACE BED</title>
+</head>
+
+<body>
+
+    <div w3-include-html="header.html"></div>
+
+    <h1 class="remove-title">회원탈퇴</h1>
+
+    <article class="remove">
+
+
+        <div>
+            <h2>회원탈퇴</h2>
+            <h4>정말로 탈퇴하시겠습니까?</h4>
+        </div>
+
+        <div>
+            <p>탈퇴 시 이용내역이 삭제되며<br>서비스 이용이 제한됩니다.<br>또한 삭제된 계정은 복구되지 않습니다.</p>
+        </div>
+
+        <button class="hover-gray">탈퇴하기</button>
+
+    </article>
+
+
+    <article class="remove2">
+        <div>
+            <h2>설문조사</h2>
+            <h5>불편했던 점, 개선할 점을 공유해주시면<br>더 나은 서비스를 위해 반영하도록 하겠습니다.</h5>
+        </div>
+
+        <div>
+            <p>탈퇴 사유</p>
+            <select>
+                <option>
+                    선택해주세요
+                </option>
+                <option>다른 사이트가 더 좋아서</option>
+                <option>더 이상 필요 없어서</option>
+            </select>
+        </div>
+
+        <div>
+            <p>건의사항</p>
+            <textarea placeholder="소중한 의견 귀담아 듣겠습니다."></textarea>
+        </div>
+
+        <button class="hover-gray">제출하기</button>
+    </article>
+
+
+    <article class="remove3">
+
+        <div>
+            <h2>탈퇴완료</h2>
+            <h4>정상적으로 탈퇴 처리 되었습니다.</h4>
+            <h5>그 동안 이용해주셔서 감사합니다.</h5>
+        </div>
+
+        <button class="hover-gray">홈으로</button>
+
+    </article>
+
+    <div w3-include-html="footer.html"></div>
+
+    <script>
+        includeHTML();
+    </script>
+
+</body>
+
+</html>

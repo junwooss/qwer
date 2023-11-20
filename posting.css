@@ -1,0 +1,1105 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    word-break: keep-all;
+    box-sizing: border-box;
+    outline: 0px solid powderblue;
+}
+
+img {
+    width: 100px;
+}
+
+body {
+    font-family: 'Noto Sans KR', serif;
+    line-height: 1.3rem;
+    color: #252525;
+    letter-spacing: 0.1px;
+}
+
+h1 {
+    font-size: 2rem;
+    line-height: 2.7rem;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    font-weight: 400;
+}
+
+h4 {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    font-weight: 400;
+}
+
+h5 {
+    font-size: 1.1rem;
+    /* line-height: 0.7rem; */
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    outline: none;
+}
+
+
+p {
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+button {
+    font-family: 'Noto Sans Kr', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    background: transparent;
+    transition: 0.6s;
+    cursor: pointer;
+    line-height: 1;
+    color: #05141f;
+    border: 1px solid #9fa5a9;
+    padding: 10px 15px;
+    margin-right: 10px;
+}
+
+i {
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+strong {
+    font-size: 23px;
+    font-weight: 300;
+    line-height: 2.5rem;
+    font-family: 'Noto Serif KR', serif;
+    word-break: keep-all;
+}
+
+small {
+    font-size: smaller;
+    color: #999;
+}
+
+
+button {
+    font-family: 'Noto Sans Kr', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    background: transparent;
+    transition: 0.3s;
+    cursor: pointer;
+    border: 1px solid #dddddd;
+    padding: 10px;
+}
+
+.btn-eee {
+    background: #eee;
+    color: #333;
+}
+
+.btn-555 {
+    background: #555;
+    color: #fff;
+}
+
+.btn-red {
+    background: #e6002d;
+    color: #fff;
+}
+
+.btn-red:hover {
+    background-color: #000;
+}
+
+article {
+    width: 90%;
+    margin: 100px auto 0px;
+    max-width: 1000px;
+    margin-top: 100px;
+    border: 1px solid #ddd;
+    padding: 60px 20px 80px;
+    border-radius: 10px;
+}
+
+/* select {
+    width: 100%;
+    height: 50px;
+    font-family: 'Noto Sans KR', serif;
+    font-size: 16px;
+    font-weight: 300;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding-left: 2vmin;
+    margin-bottom: 16px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url('https://user-images.githubusercontent.com/112612653/189023703-98e91f90-849c-4c73-acd4-821517f10f92.png') no-repeat 97% 50%/10px auto;
+} */
+
+select {
+    font-family: 'Noto Sans KR', serif;
+    cursor: pointer;
+    appearance: none;
+    background: url("https://cdn-icons-png.flaticon.com/512/32/32195.png") no-repeat 90% 50%;
+    background-size: 10px;
+    border: 1px solid #ddd;
+    padding: 10px 40px;
+    font-size: 1rem;
+}
+
+/* input[type="text"] {
+    width: 100%;
+    height: 50px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    margin-bottom: 24px;
+    padding-left: 12px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+} */
+
+.qna-text[type="text"] {
+    width: 100%;
+    height: 50px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    margin-bottom: 24px;
+    padding-left: 12px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
+
+input[type="text"] {
+    font-family: 'Noto Sans KR', sans-serif;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    font-size: 1rem;
+    padding: 10px 0;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+label {
+    cursor: pointer;
+}
+
+textarea {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    width: 100%;
+    height: 300px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding: 12px;
+    resize: none;
+}
+
+/* ------------ */
+
+.pc-only {
+    display: none;
+}
+
+.blue-button {
+    background-color: #0890c0;
+    width: 150px;
+    color: #fff;
+}
+
+.gray-p {
+    color: #666;
+    font-size: 0.9rem;
+    margin-left: 5px;
+}
+
+.blue-star {
+    color: #0890c0;
+    font-size: 1.2rem;
+    letter-spacing: -2.5px
+}
+
+.button-ho-blue {
+    position: relative;
+    width: 100%;
+    border: 1px solid #333;
+    transition: 0.3s;
+    overflow: hidden;
+}
+
+.button-ho-blue:hover {
+    color: #fff;
+}
+
+.button-ho-blue::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #0890c8;
+    left: 0;
+    top: 100%;
+    transition: 0.3s;
+    z-index: -1;
+}
+
+.button-ho-blue:hover::before {
+    transform: translateY(-100%);
+}
+
+/* start */
+
+.board-title {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.board1> :nth-child(1) {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.board1-select {
+    width: 100%;
+    height: 50px;
+    padding: 0 16px;
+    font-size: 1rem;
+}
+
+.board1-text[type="text"] {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 24px;
+    padding: 0;
+    padding-left: 12px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
+
+.board1 :nth-child(5) {
+    display: flex;
+}
+
+.board1 :nth-child(5) div {
+    width: 60px;
+    height: 60px;
+    background: #f9f9f9;
+    border: 1px solid #f9f9f9;
+    margin-right: 10px;
+    margin-bottom: 40px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.board1 :nth-child(5) div:hover {
+    background: #eee;
+    border: 1px solid #ddd;
+}
+
+.board1 :nth-child(5) div img {
+    width: 14px;
+    opacity: 0.5;
+}
+
+.board1 :nth-child(6) {
+    display: flex;
+    justify-content: space-between;
+}
+
+.board1 button {
+    width: 48%;
+}
+
+/* -------view1 */
+
+.view1-title {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.view1-part1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bt-gray {
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+}
+
+.view1-last {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.view1-last> div {
+    margin-right: 7px;
+}
+
+.view1-mdiv {
+    margin-bottom: 50px;
+}
+
+.view1-mdiv p {
+    margin: 10px 0;
+}
+
+.view1-mimg {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: 50px auto;
+}
+
+.view1-icon-div {
+    position: relative;
+    border: 1px solid silver;
+    width: 130px;
+    height: 130px;
+    margin: 50px auto;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.view1-icon {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    width: 40px;
+    transform: translate(-50%);
+}
+
+.view1-icon-div h5 {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    width: 40px;
+    transform: translate(-50%);
+}
+
+.task1 {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid silver;
+    padding-bottom: 20px;
+}
+
+.task1> :nth-child(1) {
+    display: flex;
+}
+
+.task1> :nth-child(1)> :nth-child(1) {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.task1> :nth-child(1)> :nth-child(2) {
+    line-height: 1.5rem;
+}
+
+.task1> :nth-child(2) {
+    width: 30px;
+    height: 30px;
+}
+
+.task2 {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid silver;
+    padding: 20px 0;
+    margin-bottom: 40px;
+}
+
+.task2> :nth-child(1) {
+    display: flex;
+}
+
+.task2> :nth-child(1)> :nth-child(1) {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.task2> :nth-child(1)> :nth-child(2) {
+    line-height: 1.5rem;
+}
+
+.task2> :nth-child(2) {
+    width: 30px;
+    height: 30px;
+}
+
+.view1 textarea {
+    height: 100px;
+}
+
+.task2-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.task2-btn button {
+    width: 100px;
+}
+
+.task3> :nth-child(1) {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #666;
+}
+
+.task3 section {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.task3 section>p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    line-height: 1.3;
+    word-wrap: break-word;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+
+/* ------------view2 */
+
+.view2 {
+    margin-bottom: 150px;
+}
+
+.view2-title {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.view2>section {
+    cursor: pointer;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+
+.view2>section:hover> :nth-child(1) img {
+    scale: 1.3;
+}
+
+.view2>section> :nth-child(1) {
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.view2>section> :nth-child(1) img {
+    height: 200px;
+    width: 100%;
+    transition: 0.5s;
+}
+
+.view2>section> :nth-child(2) h3 {
+    margin-bottom: 12px;
+    text-align: left;
+}
+
+.view2>section> :nth-child(2) p {
+    margin-bottom: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    line-height: 1.3;
+    word-wrap: break-word;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+
+.last-btn {
+    width: 100px;
+    height: 40px;
+    border: 1px solid silver;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+    transition: 0.5s;
+}
+
+.last-btn:hover {
+    background-color: #eee;
+}
+
+/* ---------------qna */
+
+.qna-title {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.qna-sub-title {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.qna-select {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    padding: 0 16px;
+    height: 40px;
+}
+
+.qna> :nth-child(4) {
+    margin-bottom: 0;
+    vertical-align: middle;
+}
+
+.qna> :nth-child(5) {
+    border: 1px solid #ddd;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    margin-top: -2px;
+}
+
+.qna> :nth-child(6) {
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.qna> :nth-child(6) label {
+    width: 100px;
+    height: 50px;
+    border: 1px solid #ccc;
+    background: #f9f9f9;
+    border-radius: 4px;
+    margin-right: 12px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 3rem;
+}
+
+.qna> :nth-child(7) {
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
+.qna> :nth-child(7) :nth-child(1) p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.qna> :nth-child(7) :nth-child(1) p span {
+    font-weight: 700;
+}
+
+.qna> :nth-child(7) input[type="checkbox"] {
+    width: 24px;
+    height: 24px;
+    vertical-align: -7px;
+    margin-bottom: 10px;
+}
+
+.qna> :nth-child(7)> :nth-child(4) {
+    display: flex;
+    justify-content: space-between;
+    line-height: 3rem;
+}
+
+.qna> :nth-child(7)> :nth-child(4) select {
+    width: 30%;
+    height: 50px;
+}
+
+.qna> :nth-child(7)> :nth-child(4) input {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.qna> :nth-child(7)> :nth-child(7) {
+    display: flex;
+    justify-content: space-between;
+}
+
+.qna> :nth-child(7)> :nth-child(7) input {
+    width: 49%;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.qna> :nth-child(7)> :nth-child(7) select {
+    width: 49%;
+    height: 50px;
+}
+
+.qna-button {
+    z-index: 1;
+}
+
+/* ...............end */
+
+.end {
+    text-align: center;
+}
+
+.end-title {
+    margin-bottom: 60px;
+}
+
+.end> :nth-child(2) img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.end> :nth-child(4) {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.end button {
+    width: 150px;
+    margin-right: 5px;
+}
+
+/* -----------qna-to */
+
+.qna-to {
+    margin-bottom: 150px;
+}
+
+.qna-to-title {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.qna-to>div:nth-child(2) {
+    font-size: 19px;
+    line-height: 1.5rem;
+    padding: 20px 0;
+    border-bottom: 1px solid #666;
+    margin-bottom: 40px;
+}
+
+.text-red {
+    color: #0890c0;
+    font-weight: 700;
+}
+
+.qna-to details>summary {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+    align-items: center;
+}
+
+.qna-to details>summary img {
+    width: 10px;
+    height: 10px;
+    margin-left: 10px;
+}
+
+.qna-to details[open] img {
+    transform: rotate(180deg);
+}
+
+.qna-to> :nth-child(3) summary> :nth-child(1) {
+    display: flex;
+    align-items: center;
+}
+
+.qna-to> :nth-child(3) summary> :nth-child(1)> :nth-child(1) {
+    width: 80px;
+    min-width: 57px;
+    text-align: center;
+    font-size: 0.8rem;
+    background: #888;
+    color: #fff;
+    padding: 4px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.qna-to> :nth-child(3)> :nth-child(2) {
+    padding: 40px;
+    background: #f9f9f9;
+    border-bottom: 1px solid #eee;
+    line-height: 1.4rem;
+}
+
+.qna-to> :nth-child(3)> :nth-child(3) {
+    padding: 40px;
+    background: #f9f9f9;
+    border-bottom: 1px solid #eee;
+    line-height: 1.4rem;
+}
+
+.qna-to> :nth-child(4) summary> :nth-child(1) {
+    display: flex;
+    align-items: center;
+}
+
+.qna-to> :nth-child(4) summary> :nth-child(1)> :nth-child(1) {
+    width: 80px;
+    min-width: 57px;
+    text-align: center;
+    font-size: 0.8rem;
+    background: #0890c8;
+    color: #fff;
+    padding: 4px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.qna-to> :nth-child(4)> :nth-child(2) {
+    padding: 40px;
+    background: #f9f9f9;
+    border-bottom: 1px solid #eee;
+    line-height: 1.4rem;
+}
+
+.qna-to> :nth-child(4)> :nth-child(3) {
+    padding: 40px;
+    background: #f9f9f9;
+    border-bottom: 1px solid #eee;
+    line-height: 1.4rem;
+}
+
+.qna-to> :nth-child(5) summary> :nth-child(1) {
+    display: flex;
+    align-items: center;
+}
+
+.qna-to> :nth-child(5) summary> :nth-child(1)> :nth-child(1) {
+    width: 80px;
+    min-width: 57px;
+    text-align: center;
+    font-size: 0.8rem;
+    background: #0890c8;
+    color: #fff;
+    padding: 4px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.qna-to> :nth-child(5)> :nth-child(2) {
+    padding: 40px;
+    background: #f9f9f9;
+    border-bottom: 1px solid #eee;
+    line-height: 1.4rem;
+}
+
+.qna-to> :nth-child(5)> :nth-child(3) {
+    padding: 40px;
+    background: #f9f9f9;
+    border-bottom: 1px solid #eee;
+    line-height: 1.4rem;
+}
+
+/* --------------------------news */
+
+.news-title {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.news-list {
+    margin-bottom: 150px;
+}
+
+/* .news-slid {
+    background: url('https://png.pngtree.com/thumb_back/fh260/back_our/20190622/ourmid/pngtree-business-geometric-minimalist-wind-banner-background-image_232189.jpg') no-repeat center;
+    background-size: cover;
+    text-align: center;
+}
+
+.news-slid strong {
+    position: relative;
+    line-height: 2rem;
+}
+
+.news-slid strong::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 20px;
+    height: 4px;
+    background: #e6002d;
+}
+
+.news-slid p {
+    margin-top: 20px;
+} */
+
+.news-search>p {
+    margin-bottom: 20px;
+}
+
+.news-search>div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.news-search>div select {
+    width: 120px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 50px;
+}
+
+.news-search>div div {
+    position: relative;
+    width: calc(75%);
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    height: 50px;
+    padding: 0 20px;
+}
+
+.news-search>div input {
+    width: 100%;
+    border: none;
+}
+
+.news-search>div div img {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    width: 20px;
+    transform: translateY(-50%);
+}
+
+
+.news-list section {
+    border-bottom: 1px solid silver;
+    margin-bottom: 40px;
+    cursor: pointer;
+    padding-bottom: 20px;
+}
+
+.news-list section:hover img {
+    scale: 1.3;
+}
+
+.news-list section> :nth-child(1) {
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.news-list section> :nth-child(1) img {
+    width: 100%;
+    height: 300px;
+    transition: 0.3s;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+.news-list section> :nth-child(1)>div {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #e6002d;
+    bottom: 0;
+    right: 0;
+    font-size: 25px;
+    text-align: center;
+    line-height: 2.3rem;
+    color: #fff;
+}
+
+.news-list section> :nth-child(2) h3 {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.news-list section> :nth-child(2) p {
+    margin-bottom: 15px;
+}
+
+.page {
+    display: flex;
+    justify-content: center;
+}
+
+.page p {
+    padding: 10px;
+    margin: 0 12px;
+    font-weight: 600;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+/* ----------------------faq */
+
+.faq-title {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.faq {
+    /* width: 90%;
+    margin: 100px auto 0px;
+    max-width: 1000px;
+    margin-top: 100px;
+    border: none;
+    padding: 0;
+    border-radius: 0px; */
+    margin-bottom: 150px;
+}
+
+
+.faq-button button {
+    width: calc(25% - 6px);
+    float: left;
+    margin-bottom: 50px;
+    margin-right: 0;
+}
+
+.faq-button button:not(:last-child) {
+    margin-right: 8px;
+}
+
+.faq-button .active {
+    color: #fff;
+    background-color: #0890c0;
+}
+
+.tab {
+    display: none;
+    position: relative;
+}
+
+.tabs {
+    clear: both;
+    margin-bottom: 150px;
+}
+
+.tab.active {
+    display: block;
+}
+
+.faq_ques {
+    display: flex;
+    border-bottom: 1px solid #ddd;
+    align-items: center;
+    cursor: pointer;
+}
+
+.faq_ques h3 {
+    margin-left: 40px;
+}
+
+.faq_ques>div {
+    padding: 30px 25px;
+}
+
+.faq_ans {
+    display: none;
+}
+
+.faq_ans>div {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    background: #f4f7fa;
+    align-items: center;
+}
+
+.faq_ans>div h3 {
+    margin-left: 40px;
+}
+
+.faq_ans>div>div {
+    padding: 30px 25px;
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 1366px) {
+
+    .pc-only {
+        display: block;
+    }
+
+    article {
+        padding: 60px 100px;
+    }
+
+    .view2>section {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .view2>section> :nth-child(1) {
+        width: 48%;
+    }
+
+    .view2>section> :nth-child(2) {
+        width: 48%;
+    }
+
+    .news-list section {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .news-list section> :nth-child(1) {
+        width: 48%;
+    }
+
+    .news-list section> :nth-child(2) {
+        width: 48%;
+    }
+}

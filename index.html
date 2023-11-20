@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script type="text/javascript" src="script.js"></script>
+    <!-- xeicon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+    <!-- 제이쿼리 -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+    <!-- slick cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <title>HC33</title>
+</head>
+
+<body>
+
+    <div w3-include-html="header.html"></div>
+
+
+    <!-- <video src="https://acebed.com/video/2023/8/23083111324506033993.mp4"
+   ></video> -->
+
+    <main>
+        <div class="main-slide">
+
+            <div>
+                <picture>
+                    <source srcset="images/main/main_1.jpg" media="(max-width: 7000px)">
+                    <img src="https://www.acebed.com/image/2023/9/23092203090889332433.jpg">
+                </picture>
+                <div>
+                    <h1>BACIO</h1>
+                    <h3>원하는 스타일로 침대를 자유롭게 꾸밀 수 있는 홈퍼니싱 컨셉의 싱글 침대</h3>
+                </div>
+
+            </div>
+
+
+            <div>
+                <picture>
+                    <source srcset="images/main/main_2.jpg" media="(max-width: 7000px)">
+                    <img src="https://www.acebed.com/common/images/sub-vis-spring-bg1.jpg">
+                </picture>
+                <div>
+                    <h1>마이크로케어</h1>
+                    <h3>항균 기술이 다르다,
+                        건강한 수면을 즐긴다
+                    </h3>
+                    <p class="pc-only">좋은 매트리스 만큼 몸에 닿는 시트 또한 중요합니다. 마이크로케어는 겉감과 안감 이중구조의 웰로쉬 원단을 사용,
+                        이중케어 봉제방식으로 만들어 쾌적한 수면을 약속합니다.</p>
+                </div>
+            </div>
+
+            <div>
+                <picture>
+                    <source srcset="images/main/main_3.jpg" media="(max-width: 7000px)">
+                    <img src="https://www.acebed.com/image/2023/10/23103010030572717467.jpg">
+                </picture>
+                <div>
+                    <h1>MODENA</h1>
+                    <h3>둥글고 단단한 조약돌의 이미지를 모티브로 디자인 한 신혼 침대
+                    </h3>
+                </div>
+            </div>
+
+            <div>
+                <picture>
+                    <source srcset="images/main/main_4.jpg" media="(max-width: 7000px)">
+                    <img src="https://www.acebed.com/common/images/sub-vis-spring-bg1.jpg">
+                </picture>
+                <div>
+                    <h1>마이크로케어</h1>
+                    <h3>항균 기술이 다르다,
+                        건강한 수면을 즐긴다
+                    </h3>
+                </div>
+            </div>
+
+            <!-- <div>
+                <video autoplay loop muted>
+                    <source src="https://www.acebed.com/video/2023/8/23083111324506033993.mp4" type="video/mp4">
+                </video>
+            </div> -->
+
+        </div>
+
+        <i class="xi-angle-left-thin slick-prev"></i>
+        <i class="xi-angle-right-thin slick-next"></i>
+    </main>
+
+    <script>
+        $('.main-slide').slick({
+            dots: true,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 1,
+            adaptiveHeight: true,
+            prevArrow: $('.slick-prev'),
+            nextArrow: $('.slick-next'),
+        });
+    </script>
+
+
+    <article class="at-1">
+
+        <h1>ACE BED</h1>
+
+        <div>
+            <div>
+                <h3>JOIN US</h3>
+                <p>회원가입시 적립금 2,000원을 드려요.</p>
+            </div>
+
+            <div>
+                <h3>REVIEW</h3>
+                <p>리뷰를 남겨주시면 적립금을 드려요.</p>
+            </div>
+
+            <div>
+                <h3>CONTENTS</h3>
+                <p class="mo-only">콘텐츠를 통해서 AceBed의 따뜻함을 느껴보세요.</p>
+                <p class="pc-only">AceBed의 따뜻함을 느껴보세요.</p>
+            </div>
+        </div>
+
+    </article>
+
+    <article class="at-2">
+
+        <h1>ACE COLLECTION</h1>
+
+        <div class="outer">
+            <div class="buttons">
+                <button class="active">침대</button>
+                <button>가구</button>
+                <button>스트레스리스</button>
+            </div>
+            <div class="tabs">
+                <div class="tab active">
+                    <div class="slider2 selects">
+                        <section>
+                            <div>
+                                <img src="images/main/bed_1.jpg">
+                            </div>
+
+                            <div>
+                                <h5>LK / k</h5>
+                                <i class="xi-heart-o"></i>
+                            </div>
+
+                            <h4>ARNO-Ⅱ</h4>
+                            <h5>T Type</h5>
+                            <div>
+                                <div class="color1" style="background-color:#f4d097;"></div>
+                                <div class="color2" style="background-color: #574529;"></div>
+                            </div>
+                        </section>
+
+                        <section>
+                            <div>
+                                <img src="images/main/bed_2.jpg">
+                            </div>
+
+                            <div>
+                                <h5>LK / K / LQ</h5>
+                                <i class="xi-heart-o"></i>
+                            </div>
+
+                            <h4>LUCE-III</h4>
+                            <h5>T Type</h5>
+                            <div>
+                                <div class="color1" style="background-color:#5d402e;"></div>
+                            </div>
+                        </section>
+
+                        <section>
+                            <div>
+                                <img src="images/main/bed_3.jpg">
+                            </div>
+
+                            <div>
+                                <h5>LK / K / LQ</h5>
+                                <i class="xi-heart-o"></i>
+                            </div>
+
+                            <h4>BMA1164</h4>
+                            <h5>T Type</h5>
+                            <div>
+                                <div class="color1" style="background-color:#cdc1a7;;"></div>
+                                <div class="color2" style="background-color: #797876;"></div>
+                            </div>
+                        </section>
+
+                        <section>
+                            <div>
+                                <img src="images/main/bed_4.jpg">
+                            </div>
+
+                            <div>
+                                <h5>LK / K / LQ</h5>
+                                <i class="xi-heart-o"></i>
+                            </div>
+
+                            <h4>BRA1439</h4>
+                            <h5>T Type</h5>
+                            <div>
+                                <div class="color1" style="background-color:#5b4140;"></div>
+                                <div class="color2" style="background-color: #ffffff; border: 1px solid silver;"></div>
+                            </div>
+                        </section>
+
+                        <section>
+                            <div>
+                                <img src="images/main/bed_5.jpg">
+                            </div>
+
+                            <div>
+                                <h5>LK / K / LQ</h5>
+                                <i class="xi-heart-o"></i>
+                            </div>
+
+                            <h4>ZANA</h4>
+                            <h5>T Type</h5>
+                            <div>
+                                <div class="color1" style="background-color:#7b6d6d;"></div>
+                                <div class="color2" style="background-color: #daadad; border: 1px solid silver;"></div>
+                            </div>
+                        </section>
+                    </div>
+                    <i class="xi-angle-left-thin slick-prev2"></i>
+                    <i class="xi-angle-right-thin slick-next2"></i>
+                </div>
+
+                <div class="tab">
+                    <div class="slider3 selects">
+                        <!-- <section>
+                            <div>
+                                <img src="https://www.acebed.com/image/2023/9/23090811065707412440.jpg">
+                            </div>
+
+                            <div>
+                                <h5>협탁</h5>
+                                <i class="xi-heart-o"></i>
+                            </div>
+
+                            <h4>MODENA 협탁</h4>
+                            <h5>T Type</h5>
+                            <div>
+                                <div class="color1" style="background-color:#822b11;"></div>
+                            </div>
+                        </section> -->
+
+                        <section>
+                            <div>
+                                <img src="images/main/ch_1.jpg">
+                            </div>
+
+                            <div>
+                                <h5>협탁</h5>
+                                <i class="xi-heart-o"></i>
+                            </div>
+
+                            <h4>#97</h4>
+                            <h5>T Type</h5>
+                            <div>
+                                <div class="color1" style="background-color:#7d7773;"></div>
+                                <div class="color2" style="background-color: #d0c3b8;"></div>
+                            </div>
+                        </section>
+
+                        <section>
+                            <div>
+                                <img src="images/main/ch_2.jpg">
+                            </div>
+
+                            <div>
+                                <h5>협탁</h5>
+                                <i class="xi-heart-o"></i>
+                            </div>
+
+                            <h4>ZANA 협탁</h4>
+                            <h5>T Type</h5>
+                            <div>
+                                <div class="color1" style="background-color:#7b6d6d;"></div>
+                                <div class="color2" style="background-color: #daadad;"></div>
+                            </div>
+                        </section>
+
+                        <section>
+                            <div>
+                                <img src="images/main/ch_3.jpg">
+                            </div>
+
+                            <div>
+                                <h5>협탁</h5>
+                                <i class="xi-heart-o"></i>
+                            </div>
+
+                            <h4>GRAFICA 사이드판넬</h4>
+                            <h5>T Type</h5>
+                            <div>
+                                <div class="color1" style="background-color:#e9e2d0;"></div>
+                                <div class="color2" style="background-color: #d3d8dc;"></div>
+                            </div>
+                        </section>
+
+                        <section>
+                            <div>
+                                <img src="images/main/ch_4.jpg">
+                            </div>
+
+                            <div>
+                                <h5>거울</h5>
+                                <i class="xi-heart-o"></i>
+                            </div>
+
+                            <h4>GRAFICA 전신경</h4>
+                            <h5>T Type</h5>
+                            <div>
+                                <div class="color1" style="background-color:#e9e2d0;"></div>
+                            </div>
+                        </section>
+                    </div>
+
+                    <i class="xi-angle-left-thin slick-prev3-1"></i>
+                    <i class="xi-angle-right-thin slick-next3-1"></i>
+                </div>
+
+                <div class="tab">
+                    <div class="slider4 selects">
+                        <section>
+                            <div>
+                                <img src="images/main/st_1.jpg">
+                            </div>
+
+                            <div>
+                                <h5>1인용 리클라이너</h5>
+                                <i class="xi-heart-o"></i>
+                            </div>
+
+                            <h4>STRESSLESS LONDON ADJUSTABLE STAR BASE</h4>
+                            <h5>T Type</h5>
+                            <div>
+                                <div class="color1" style="background-color:#995f4b;"></div>
+                            </div>
+                        </section>
+
+                        <section>
+                            <div>
+                                <img src="images/main/st_2.jpg">
+                            </div>
+
+                            <div>
+                                <h5>1인용 리클라이너</h5>
+                                <i class="xi-heart-o"></i>
+                            </div>
+
+                            <h4>STRESSLESS SAM DISC WOOD BASE</h4>
+                            <h5>T Type</h5>
+                            <div>
+                                <div class="color1" style="background-color:#262626;"></div>
+                            </div>
+                        </section>
+
+
+
+                        <section>
+                            <div>
+                                <img src="images/main/st_3.jpg">
+                            </div>
+
+                            <div>
+                                <h5>오피스체어</h5>
+                                <i class="xi-heart-o"></i>
+                            </div>
+
+                            <h4>STRESSLESS MAGIC OFFICE BASE</h4>
+                            <h5>T Type</h5>
+                            <div>
+                                <div class="color1" style="background-color:#b97c4f;"></div>
+                            </div>
+                        </section>
+
+                        <section>
+                            <div>
+                                <img src="images/main/st_4.jpg">
+                            </div>
+
+                            <div>
+                                <h5>소파</h5>
+                                <i class="xi-heart-o"></i>
+                            </div>
+
+                            <h4>STRESSLESS ARION SC-121 H</h4>
+                            <h5>T Type</h5>
+                            <div>
+                                <div class="color1" style="background-color:#8b847a;"></div>
+                            </div>
+                        </section>
+
+
+                        <section>
+                            <div>
+                                <img src="images/main/st_5.jpg">
+                            </div>
+
+                            <div>
+                                <h5>테이블&악세서리</h5>
+                                <i class="xi-heart-o"></i>
+                            </div>
+
+                            <h4>STRESSLESS STELLA OTTOMAN TABLE</h4>
+                            <h5>T Type</h5>
+                            <div>
+                                <div class="color1" style="background-color:#487071;"></div>
+                            </div>
+                        </section>
+
+                    </div>
+                    <i class="xi-angle-left-thin slick-prev4"></i>
+                    <i class="xi-angle-right-thin slick-next4"></i>
+                </div>
+            </div>
+        </div>
+
+    </article>
+
+    <script>
+        $('button').click(function () {
+            var $this = $(this);
+            var index = $this.index();
+
+            $this.addClass('active');
+            $this.siblings('button.active').removeClass('active');
+
+            var $outer = $this.closest('.outer');
+            var $current = $outer.find(' > .tabs > .tab.active');
+            var $post = $outer.find(' > .tabs > .tab').eq(index);
+
+            $current.removeClass('active');
+            $post.addClass('active');
+            // 위의 코드는 탭메뉴 코드입니다.
+
+            $('.slider2').slick('setPosition');
+            $('.slider3').slick('setPosition');
+            $('.slider4').slick('setPosition');
+            // 탭 페이지 안에서 slick 사용시 – slick이 첫페이지에 있지 않으면 slick의 첫번째 이미지가 보이지 않고 2번째 부터 도는것을 확인 할 수 있다. 해당 문제는 탭이 active가 된 후 그 페이지에 slick이 있다면 = slick의 위치를 수동으로 새로 고쳐줘야 한다.
+        });
+
+        // 기존 처음의 slick 적용
+
+        $('.slider2').slick({
+            dots: true,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 2,
+            adaptiveHeight: true,
+            prevArrow: $('.slick-prev2'),
+            nextArrow: $('.slick-next2'),
+            responsive: [ // 반응형 웹 구현 옵션
+                {
+                    breakpoint: 700, //화면 사이즈 960px
+                    settings: {
+                        slidesToShow: 2,
+
+                    }
+                },
+                {
+                    breakpoint: 2560, //화면 사이즈 960px
+                    settings: {
+                        slidesToShow: 3,
+
+                    }
+                },
+            ]
+        });
+
+
+
+        $('.slider3').slick({
+            dots: true,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 2,
+            adaptiveHeight: true,
+            prevArrow: $('.slick-prev3-1'),
+            nextArrow: $('.slick-next3-1'),
+            responsive: [ // 반응형 웹 구현 옵션
+                {
+                    breakpoint: 700, //화면 사이즈 960px
+                    settings: {
+                        slidesToShow: 2,
+
+                    }
+                },
+                {
+                    breakpoint: 2560, //화면 사이즈 960px
+                    settings: {
+                        slidesToShow: 3,
+
+                    }
+                },
+            ]
+        });
+
+
+        $('.slider4').slick({
+            dots: true,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 2,
+            adaptiveHeight: true,
+            prevArrow: $('.slick-prev4'),
+            nextArrow: $('.slick-next4'),
+            responsive: [ // 반응형 웹 구현 옵션
+                {
+                    breakpoint: 700, //화면 사이즈 960px
+                    settings: {
+                        slidesToShow: 2,
+
+                    }
+                },
+                {
+                    breakpoint: 2560, //화면 사이즈 960px
+                    settings: {
+                        slidesToShow: 3,
+
+                    }
+                },
+            ]
+        });
+
+    </script>
+
+    <article class="at-3">
+
+        <!-- <h1>EVENT</h1> -->
+        <div class="main-event">
+            <picture>
+                <source srcset="images/main/m-event-banner3.jpg" media="(max-width: 600px)">
+                <img src="images/main/event-banner3.jpg">
+            </picture>
+
+            <div class="event-banner">
+                <h4>Wedding Members</h4>
+                <p>웨딩멤버스 가입하고 사은품부터 할인<br>혜택 까지 모두 받으세요</p>
+            </div>
+        </div>
+
+        <div>
+            <div class="event-slide">
+
+                <div>
+                    <div>
+                        <img src="images/main/event_1.jpg">
+                    </div>
+                    <h4>2023 웨딩멤버스 회원을 위한 혜택 </h4>
+                    <p>2023-01-01 - 2023-12-31</p>
+                </div>
+
+                <div>
+                    <div>
+                        <img src="images/main/event_2.jpg">
+                    </div>
+                    <h4>2023 스트레스리스 웨딩멤버스 이벤트</h4>
+                    <p>2023-01-01 - 2023-12-31</p>
+                </div>
+
+                <div>
+                    <div>
+                        <img src="images/main/event_3.jpg">
+                    </div>
+                    <h4>에이스침대 X LG베스트샵 제휴 이벤트</h4>
+                    <p>2023-01-01 - 2023-12-31</p>
+                </div>
+
+                <div>
+                    <div>
+                        <img src="images/main/event_4.jpg">
+                    </div>
+                    <h4>2023 에이스침대 구매 후기 이벤트</h4>
+                    <p>2023-01-01 - 2023-12-31</p>
+                </div>
+
+                <div>
+                    <div>
+                        <img src="images/main/event_5.jpg">
+                    </div>
+                    <h4>Royal Ace 60th 프로모션</h4>
+                    <p>2023-08-11 - 2023-12-31</p>
+                </div>
+
+            </div>
+
+            <!-- <i class="xi-angle-left-thin slick-prev5"></i>
+            <i class="xi-angle-right-thin slick-next5"></i> -->
+        </div>
+
+    </article>
+
+    <script>
+        $('.event-slide').slick({
+            dots: true,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 2,
+            autoplay: true,
+            autoplaySpeed: 1500,
+            adaptiveHeight: true,
+            prevArrow: $('.slick-prev5'),
+            nextArrow: $('.slick-next5'),
+            responsive: [ // 반응형 웹 구현 옵션
+                {
+                    breakpoint: 900, //화면 사이즈 960px
+                    settings: {
+                        slidesToShow: 2,
+                        centerPadding: '100px',
+                    }
+                },
+                {
+                    breakpoint: 1360, //화면 사이즈 960px
+                    settings: {
+                        slidesToShow: 3,
+
+                    }
+                },
+                {
+                    breakpoint: 2560,
+                    settings: {
+                        slidesToShow: 4,
+                    }
+                }
+            ]
+        });
+    </script>
+
+
+
+    <article class="at-4">
+
+        <h1>NOW SNS</h1>
+
+        <div>
+            <div>
+                <img src="images/main/sns_1.png">
+                <img src="images/main/sns_2.png">
+            </div>
+            <div>
+                <img src="images/main/sns_3.png">
+                <img src="images/main/sns_4.png">
+            </div>
+        </div>
+
+        <div>
+            <div>
+                <img src="images/main/sns_5.png">
+                <img src="images/main/sns_6.png">
+            </div>
+            <div>
+                <img class="pc-only" src="images/main/sns_7.png">
+                <img class="pc-only" src="images/main/sns_8.png">
+            </div>
+        </div>
+        <div>
+            <i class="xi-instagram"></i>
+            <i class="xi-facebook"></i>
+            <i class="xi-youtube-play"></i>
+        </div>
+
+    </article>
+
+
+    <article class="at-5">
+
+        <h1>Review</h1>
+
+        <div>
+            <div class="review">
+
+                <div>
+                    <img src="images/main/review_1.jpeg">
+
+                    <div>
+                        <h3>ERBA, Duo TECH III</h3>
+                        <div>
+                            <i class="xi-star"></i>
+                            <i class="xi-star"></i>
+                            <i class="xi-star"></i>
+                            <i class="xi-star"></i>
+                            <i class="xi-star"></i>
+                        </div>
+
+                        <p>롯데백화점 안산점</p>
+
+                        <h5>너무 잘 쓰고 있는 에이스 침대!
+                            구매는 롯데백화점 안산점에서 했어요. 에이스랑 타업체 돌아다녔는데 매트리스도 에이스가 편하고 매니저님께서 저희에게 맞는걸로 추천을 너무 잘 해주셔서 에이스에서
+                            구매하게
+                            됐어요~!
+                        </h5>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="images/main/review_2.jpeg">
+
+                    <div>
+                        <h3>LUCE-III, HYBRID TECH - BLUE
+                        </h3>
+                        <div>
+                            <i class="xi-star"></i>
+                            <i class="xi-star"></i>
+                            <i class="xi-star"></i>
+                            <i class="xi-star"></i>
+                            <i class="xi-star"></i>
+                        </div>
+
+                        <p>롯데백화점 안산점</p>
+
+                        <h5>신혼집 침대는 역시 에이스 ❤️
+                            이번에 신혼집으로 이사하면서 제일먼저 침대를 구매하고 싶었어요 ㅎㅎ 우연히 백화점 에이스를 지나가다가 프레임이 너무 예뻐서 홀린듯이 구경하러 들어갔다가 구매했어요
+                        </h5>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="images/main/review_3.jpg">
+
+                    <div>
+                        <h3>LUCE-III, HYBRID TECH - BLUE
+                        </h3>
+                        <div>
+                            <i class="xi-star"></i>
+                            <i class="xi-star"></i>
+                            <i class="xi-star"></i>
+                            <i class="xi-star"></i>
+                            <i class="xi-star"></i>
+                        </div>
+
+                        <p>용인 흥덕점</p>
+
+                        <h5>백화점 및 대리점 방문하여 여려제품 및 브랜드 구경후
+                            한번쓰면 오래쓸것같아서 에이스침대결정
+                            집근처 용인흥덕 방문후 여러 대리점을 추가로 방문하였는데
+                            제일 친절하고 믿음직하고 정말잘해주시네요
+                        </h5>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="images/main/review_4.jpeg">
+
+                    <div>
+                        <h3>LUCE-III, DUO TECH Ⅲ</h3>
+                        <div>
+                            <i class="xi-star"></i>
+                            <i class="xi-star"></i>
+                            <i class="xi-star"></i>
+                            <i class="xi-star"></i>
+                            <i class="xi-star"></i>
+                        </div>
+
+                        <p>에이스스퀘어 진주점</p>
+
+                        <h5>3개월 써본 솔직한 후기 적어봅니다. 침대 너무 이쁘고 조명 켜지는 것도 느낌있고 좋아요. 외관 디자인은 100점 만점이에요. 그런데 문제는 아직까지 너무 새것
+                            냄새,
+                            화확적인
+                            냄새가 많이 나서 머리가 아파요.
+                        </h5>
+                    </div>
+                </div>
+
+            </div>
+
+            <i class="xi-angle-left-thin slick-prev6"></i>
+            <i class="xi-angle-right-thin slick-next6"></i>
+        </div>
+
+
+    </article>
+
+    <script>
+        $('.review').slick({
+            // centerMode: true,
+            centerPadding: '500px',
+            slidesToShow: 1,
+            autoplay: true,
+            autoplaySpeed: 1500,
+            prevArrow: $('.slick-prev6'),
+            nextArrow: $('.slick-next6'),
+            responsive: [ // 반응형 웹 구현 옵션
+                {
+                    breakpoint: 900, //화면 사이즈 960px
+                    settings: {
+                        slidesToShow: 2,
+
+                    }
+                },
+                {
+                    breakpoint: 1360, //화면 사이즈 960px
+                    settings: {
+                        slidesToShow: 3,
+                        centerPadding: '300px',
+                    }
+                },
+                {
+                    breakpoint: 2560,
+                    settings: {
+                        slidesToShow: 3,
+                        centerPadding: '500px',
+                    }
+                }
+            ]
+        });
+    </script>
+
+
+    <article class="at-6">
+
+        <div>
+            <h1>Ace News</h1>
+            <h4>에이스침대의
+                새로운 소식을 알려드립니다
+            </h4>
+        </div>
+
+        <div>
+            <div class="space-betweens">
+                <button class="tabmenu-button tablink tabmenu-color" onmouseover="openCity(event,'London')">
+                    <h5>About Ace<span class="pc-only">포근한 VENATO-S 낙엽이
+                            살포시 안착
+                        </span></h5>
+                </button>
+
+                <button class="tabmenu-button tablink" onmouseover="openCity(event,'Paris')">
+                    <h5>About Ace<span class="pc-only">#SLEEPING_STYLE_CREATOR</span></h5>
+                </button>
+
+                <button class="tabmenu-button tablink" onmouseover="openCity(event,'Tokyo')">
+                    <h5>What's New<span class="pc-only">신세계백화점 경지점 리뉴얼 OPEN</span></h5>
+                </button>
+
+                <button class="tabmenu-button tablink" onmouseover="openCity(event,'Winix4')">
+                    <h5>What's New<span class="pc-only">롯데백화점 본점 리뉴얼 OPEN</span></h5>
+                </button>
+            </div>
+
+            <div class="margin-tops centers">
+
+                <div id="London" class="city">
+                    <img src="images/main/news_1.png">
+                    <div>
+                        <h3>FACEBOOK</h3>
+                        <h4>감성적인 가을 낙엽만큼
+                            분위기 있는 우드 침대 VENATO-S와
+                            가을의 끝을 좋은 잠으로
+                            쌓아 보는 건 어떠신가요💕</h4>
+                    </div>
+                </div>
+
+                <div id="Paris" class="city" style="display:none">
+
+                    <img src="images/main/news_2.png">
+                    <div>
+                        <h3>FACEBOOK</h3>
+                        <h4>지치고 바쁜 일상의 굴레에서 벗어나 에이스침대와 함께 좋은 잠을 자고 좋은 내가 되기 위해 잠캉스를 떠납니다🏖💤</h4>
+                    </div>
+                </div>
+
+                <div id="Tokyo" class="city" style="display:none">
+                    <img src="images/main/news_3.jpg">
+                    <div>
+                        <h3>매장오픈소식</h3>
+                        <h4>신세계백화점 경기점 리뉴얼 OPEN</h4>
+                    </div>
+                </div>
+
+                <div id="Winix4" class="city" style="display:none">
+                    <img src="images/main/news_4.jpg">
+                    <div>
+                        <h3>매장오픈소식</h3>
+                        <h4>롯데백화점 본점 리뉴얼 OPEN</h4>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </article>
+
+    <script>
+
+        function openCity(evt, cityName) {
+            var i, x, tablinks;
+            x = document.getElementsByClassName("city");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+
+            tablinks = document.getElementsByClassName("tablink");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].classList.remove("tabmenu-color"); // 기존에 적용된 클래스 제거
+                tablinks[i].classList.add("tabmenu-button"); // 모든 버튼에 .tabmenu-button 클래스 추가
+            }
+
+            document.getElementById(cityName).style.display = "block";
+
+            evt.currentTarget.classList.add("tabmenu-color"); // 선택한 버튼에 .tabmenu-color 클래스 추가
+        }
+    </script>
+
+
+    <article class="at-7">
+
+        <div>
+            <h3>현재 고객님과 가까운 매장을 안내해 드립니다.</h3>
+            <div>
+                <input type="text" placeholder="매장명 및 지역 검색">
+                <i class="xi-search"></i>
+            </div>
+        </div>
+
+        <div>
+            <div>
+                <img src="images/icon/mainsec8-icon1.png">
+                <h5>제품<br>메뉴얼</h5>
+            </div>
+
+            <div>
+                <img src="images/icon/mainsec8-icon2.png">
+                <h5>A/S<br>및 상담</h5>
+            </div>
+
+            <div>
+                <img src="images/icon/mainsec8-icon3.png">
+                <h5>자주 묻는<br> 질문</h5>
+            </div>
+        </div>
+
+    </article>
+
+    <div w3-include-html="footer.html"></div>
+
+    <script>
+        includeHTML();
+    </script>
+
+
+</body>
+
+<script type="text/javascript" src="script.js"></script>
+
+</html>

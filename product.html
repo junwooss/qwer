@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
+    <script type="text/javascript" src="script.js"></script>
+    <!-- xeicon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+    <!-- 제이쿼리 -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <!-- slick cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <title>purchase</title>
+</head>
+
+<body>
+
+    <div w3-include-html="header.html"></div>
+
+    <article class="at-1">
+        <h4>아르노2</h4>
+        <h1>ARNO-II</h1>
+
+        <div>
+            <div class="product-m-slide">
+
+                <div>
+                    <img src="images/product/product_main_1.jpg">
+                </div>
+
+                <div>
+                    <img src="images/product/product_main_2.jpg">
+                </div>
+
+                <div>
+                    <img src="images/product/product_main_3.jpg">
+                </div>
+
+                <div>
+                    <img src="images/product/product_main_4.jpg">
+                </div>
+            </div>
+
+            <i class="xi-angle-left-thin slick-prev1"></i>
+            <i class="xi-angle-right-thin slick-next1"></i>
+
+        </div>
+
+        <!-- <div class="layout">
+            <ul class="slider">
+                <li>
+                    <img src="https://www.acebed.com/image/2023/9/23092105142021047469.jpg">
+                </li>
+                <li>
+                    <img src="https://www.acebed.com/image/2023/9/23092105105586782986.jpg">
+                </li>
+                <li>
+                    <img src="https://www.acebed.com/image/2023/9/23092105142037237337.jpg">
+                </li>
+              
+                <li>
+                    <img src="https://www.acebed.com/image/2023/9/23092105142021047469.jpg">
+                </li>
+            </ul>
+        </div> -->
+
+        <h2>백조의 유려한 날개형상을 모티브로 디자인 된 유려한 라인과
+            은은한 무드등의 조화 </h2>
+        <p>천연 무늬목의 고급스러운 질감과 포근한 헤드보드 쿠션이 특징입니다.
+            고주파 공법으로 완성된 헤드보드의 부드럽고 섬세한 라인과
+            디밍 기능이 적용된 무드등이 어우러져 로맨틱한 침실분위기를 연출해줍니다.</p>
+
+        <div class="at-1-button">
+            <button>#신혼부부추천</button>
+            <button>LED조명침대</button>
+        </div>
+
+    </article>
+
+
+    <script>
+        $('.product-m-slide').slick({
+            dots: true,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 1,
+            adaptiveHeight: true,
+            prevArrow: $('.slick-prev1'),
+            nextArrow: $('.slick-next1'),
+        });
+
+        // $('.slider').slick({
+        //     dots: true,
+
+        //     customPaging: function (slick, index) {
+        //         var targetImage = slick.$slides.eq(index).find('img').attr('src');
+        //         return '<img src=" ' + targetImage + ' "/>';
+        //     }
+        // });
+    </script>
+
+
+    <article class="at-2">
+
+        <h4>제품 상세스펙</h4>
+
+        <div>
+            <div>
+                <div>
+                    <img src="images/icon/m-frame-size-icon.png">
+                    <h5>사이즈</h5>
+                </div>
+
+                <h5>LK</h5>
+                <p>너비<span>1,898mm</span></p>
+                <p>길이<span>2,307mm</span></p>
+                <p>높이<span>1,203mm</span></p>
+            </div>
+
+            <div>
+                <div>
+                    <img src="images/icon/m-use-icon.png">
+                    <h5>용도</h5>
+                </div>
+
+                <p>2인 침대</p>
+            </div>
+
+            <div>
+                <div>
+                    <img src="images/icon/m-material-icon.png">
+                    <h5>소재</h5>
+                </div>
+
+                <p>멀티 소재</p>
+            </div>
+
+            <div>
+                <div>
+                    <img src="images/icon/m-type-icon.png">
+                    <h5>컨셉/타입</h5>
+                </div>
+
+                <p>컨셉 <span>모던</span></p>
+                <p>타입 <span>T Type</span></p>
+            </div>
+
+
+            <div>
+                <div>
+                    <img src="images/icon/m-store-icon.png">
+                    <h5>판매처</h5>
+                </div>
+
+                <p>백화점/대리점/온라인</p>
+            </div>
+
+
+            <div>
+                <div>
+                    <img src="images/icon/m-color-icon.png">
+                    <h5>컬러</h5>
+                </div>
+
+                <div class="color-1s">
+                    <div class="color1"></div>
+                    <p>오크내추럴</p>
+                </div>
+
+                <div class="color-2s">
+                    <div class="color2"></div>
+                    <p>월넛내츄럴</p>
+                </div>
+            </div>
+        </div>
+
+
+    </article>
+
+
+    <div class="at2-img">
+        <picture>
+            <source srcset="images/product/product_at2_mo1.jpg" media="(max-width: 800px)">
+            <img src="images/product/product_at2_pc_1.jpg">
+        </picture>
+    </div>
+
+
+    <div class="at2-img2">
+        <picture>
+            <source srcset="images/product/product_mo_2.jpg" media="(max-width: 800px)">
+            <img src="images/product/product_pc_2.jpg">
+        </picture>
+    </div>
+
+
+    <article class="at-3-mo mo-only">
+
+        <div>
+            <div class="review">
+
+                <div>
+                    <img src="images/product/bed_detail.jpg">
+                </div>
+
+                <div>
+                    <img src="images/product/bed_detail_2.jpg">
+                </div>
+
+                <div>
+                    <img src="images/product/bed_detail_3.jpg">
+                </div>
+
+                <div>
+                    <img src="images/product/bed_detail_4.jpg">
+                </div>
+
+            </div>
+        </div>
+
+    </article>
+
+
+    <script>
+        $('.review').slick({
+            centerMode: true,
+            slidesToShow: 1,
+            dots: true,
+            infinite: false,
+            autoplaySpeed: 1500,
+            prevArrow: $('.slick-prev2'),
+            nextArrow: $('.slick-next2'),
+            responsive: [ // 반응형 웹 구현 옵션
+                {
+                    breakpoint: 2560,
+                    settings: {
+                        slidesToShow: 1,
+                        centerPadding: '50px',
+                    }
+                },
+            ]
+        });
+    </script>
+
+
+    <article class="at-3-pc pc-only">
+
+        <img src="images/product/bed_detail.jpg">
+
+        <div>
+            <img src="images/product/bed_detail_3.jpg">
+            <img src="images/product/bed_detail_4.jpg">
+        </div>
+    </article>
+
+
+    <article class="at-4">
+
+        <h1>ROOM SET</h1>
+        <p>에이스침대와 꼭 맞는 룸 세트로 심플하면서도 고급스러운 침실 공간을 연출해보세요.</p>
+
+        <img src="images/product/roomset_1.jpg">
+
+        <div class="set-color">
+            <h4>ARNO-II</h4>
+            <div></div>
+        </div>
+
+    </article>
+
+
+    <article class="at-5">
+
+        <h1>ACE REVIEW</h1>
+
+        <div>
+            <h5>총 <span>30건</span>의 후기<span class="review-text">가 등록되어 있습니다.</span></h5>
+            <div>
+                <button>후기작성</button>
+                <button class="pc-only">고객후기보기</button>
+            </div>
+        </div>
+
+        <div class="at-5-flex">
+            <div>
+                <img src="images/product/review_1.jpg">
+                <p>어느곳에 갖다놔도 어울리는 베이지 우드톤이고 중후하고 세련된 디자인으로 침실이 더욱 안정된 분위기입니다.</p>
+            </div>
+
+            <div>
+                <img src="images/product/review_2.jpg">
+                <p>에이스 침대는 연결형(구 버전)이라는데 속는셈 치고 한 번 누워나 볼까란 생각이 들어 이동, 에이스침대 하이브리드테크레드에 누워봤는데 웬일.. 적당한 푹신감에 허리도 편했다.
+                </p>
+            </div>
+
+            <div>
+                <img src="images/product/review_3.jpg">
+                <p>여전히 잘 사용 중 입니다. 아르노2 프레임의 조명은 처음 구입할 때에는 큰 생각이 없었는데 지금은 완전 아주 유용하게 사용하고 있어요!! 사은품으로 주신 호텔베딩세트도 날씨
+                    쌀쌀해진 요즘 사용하기 참 좋더라구요.</p>
+            </div>
+
+            <div>
+                <img src="images/product/review_4.jpg">
+                <p>쓰던 침대를 바꾸려고 하던중 고양 가구 박람회를 일산 킨텍스에서 한다기에 여러 매장을 다니는것보다 다양하게 제품을 비교할수 있을것 같아 방문했어요.
+                </p>
+            </div>
+        </div>
+
+    </article>
+
+    <div w3-include-html="footer.html"></div>
+
+    <script>
+        includeHTML();
+    </script>
+
+
+</body>
+
+</html>
